@@ -10,9 +10,8 @@ body {
     display: flex;
     height: 600px;
     padding: 100px;
-    margin-top: 150px;
     width: 80%;
-    margin: 0 auto;
+    margin: 100px auto;
     justify-content: space-between;
     align-items: center;
     background: #161616;
@@ -74,7 +73,7 @@ body {
 
 .half-width-header img {
     width: 100%;
-    margin-bottom: -4.6rem;
+    margin-bottom: -5.1rem;
 }
 
 
@@ -89,6 +88,37 @@ body {
 .blogs-onclick {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 312px;
+    height: 312px;
+    background: #161616;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.blogs-onclick a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 252px;
+    height: 64px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #161616;
+}
+
+#blog {
+    background-color: #DD0000;
+    color: white;
 }
 
 .blog-section {
@@ -103,14 +133,30 @@ body {
 .blog-section .blog {
     border: 1px solid wheat;
     width: 311px;
+    border-radius: 10px;
 }
 
 .blog .blog-info {
     padding: 15px;
 }
 
-.blog-info .blog-btn {
-    background-color: white;
+.blog .blog-info-likes{
+    display: flex;
+    gap: 20px;
+}
+
+.blog .blog-info-like{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.blog .blog-btn {
+    text-decoration: none;
+    border: 1px solid;
+    padding: 5px;
+    width: 100px;
+    height: 32px;
     border-radius: 5px;
 }
 
@@ -154,4 +200,23 @@ footer h1 {
 
 .footer-link a:hover {
     text-decoration: underline;
+}
+
+.footer-social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.footer-social a{
+    color: white;
+    font-size: 2rem;
+}
+.footer-social a:nth-child(1):hover{
+    color: rgb(34, 34, 241);
+}
+.footer-social a:nth-child(3):hover{
+    color: rgb(0, 106, 245);
 }
