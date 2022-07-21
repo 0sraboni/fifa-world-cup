@@ -77,6 +77,43 @@ body {
     margin-bottom: -4.6rem;
 }
 
+
+/* Blog Section */
+.blogs-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.blogs-onclick {
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto;
+    gap: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.blog-section .blog {
+    border: 1px solid wheat;
+    width: 311px;
+}
+
+.blog .blog-info {
+    padding: 15px;
+}
+
+.blog-info .blog-btn {
+    background-color: white;
+    border-radius: 5px;
+}
+
 /* Footer part */
 footer {
     background-color: black;
@@ -91,7 +128,7 @@ footer {
     margin-top: 20px;
 }
 
-hr{
+hr {
     color: rgb(218, 218, 218);
     width: 80%;
 }
@@ -105,16 +142,16 @@ footer h1 {
     color: #FFFFFF;
 }
 
-.footer-link{
+.footer-link {
     margin-top: 40px;
 }
 
-.footer-link a{
+.footer-link a {
     text-decoration: none;
     margin-right: 10px;
     color: #FFFFFF;
 }
 
-.footer-link a:hover{
+.footer-link a:hover {
     text-decoration: underline;
 }
